@@ -1,0 +1,11 @@
+<div>
+    <h2>My favorite pokemon is: </h2>
+        <% if(pokemon.length) { %>
+        <% pokemon.forEach((poke) => {%>
+            <a href="/pokemon/<%=poke.name%>"> <h3><%=poke.name %></h3></a>
+
+        <% }) } else {%>
+            <h2>no favorites yet</h2>
+        <%  }%>
+
+</div>

@@ -6,6 +6,7 @@ Working with databases, especially through ORMs, can present quite a learning cu
 
 If you're not familiar with Pokemon, Pokemon is a franchise/universe created by Satoshi Tajiri in 1995. It's a famous franchise in both the US and Japan. Fun facts:
 
+
 * Pokemon is short for "Pocket Monsters"
 * The Pokemon universe extends to games, trading cards, and TV
 * [The Pokemon Company](https://en.wikipedia.org/wiki/The_Pok%C3%A9mon_Company) is headquartered in Bellevue, WA.
@@ -143,7 +144,7 @@ Or, specify a limit of 151 to see all 151 pokemon!
 
 ## Bonuses
 
-* Add the ability to DELETE Pokemon from the favorites list.  
+* Add the ability to DELETE Pokemon from the favorites list.
 * Rethink the `pokemon` table. Instead of it being a list of favorites, have it be a list of pokemon the user owns. What columns should the table have? `nickname`, `level`, etc... How would this change the app?
 ---
 
